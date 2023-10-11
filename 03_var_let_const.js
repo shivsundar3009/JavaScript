@@ -13,3 +13,5 @@ let d  = undefined
   console.log(b)
 }
 console.log(b)
+
+// let and const was introduced in es6 before that we had only var
