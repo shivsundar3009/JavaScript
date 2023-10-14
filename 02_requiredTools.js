@@ -1,4 +1,5 @@
-console.log("This repl contains code for the Ultimate JavaScript course video no 2")
+// In this we are installing required tools to run javascript in our machine
+
 var a = 67 // a contains 67
 console.log(a)
 a = "harry"
