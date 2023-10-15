@@ -8,6 +8,8 @@
 
 // It was created by Eric Gamma and intially released in 2015
 
+// use command ( node filename.js ) in terminal to run code in that file. 
+
 var a = 67 // a contains 67
 console.log(a)
 a = "shiv"
