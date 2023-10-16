@@ -1,17 +1,14 @@
-console.log("JavaScript tutorial 3: var, let and const")
-// var a = 45;
-// var a = "p"
-let b = "Harry";
-const author = "Harry"
-author = 5 // Throws an error because constant cannot be changed
-b = 4
-const harry = 0;
-let c = null
-let d  = undefined  
-{
-  let b = 'this'
-  console.log(b)
-}
-console.log(b)
+/*
+Javascript variables can be declared inn 4 ways:
+  A) Automatically 
+  B) Using Var
+  C) Using Let
+  D) Using Const
 
-// let and const was introduced in es6 before that we had only var
+*/
+
+// The Var keyword was used in all Javascript code from 1995 to 2015.
+
+// The Let and Const keywords were introduced to Javascript in 2015.
+
+// Only use let if you cannot use const.
