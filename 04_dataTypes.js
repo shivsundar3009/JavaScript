@@ -16,4 +16,6 @@ The object data type can contain:
 2. An array
 3. A date
 
+// we can check data type of any variable using typeof method
+
 */
