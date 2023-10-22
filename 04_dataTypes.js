@@ -17,5 +17,7 @@ The object data type can contain:
 3. A date
 
 // we can check data type of any variable using typeof methods
+ 
+testing something
 
 */
