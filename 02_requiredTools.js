@@ -10,9 +10,15 @@
 
 // use command ( node filename.js ) in terminal to run code in that file. 
 
+// Github is a platform and cloud-based service for software development and version control using Git.
+
+// Development of Github began on Oct 19,2007 and launched in April 2008 by Tom Preston-Werner, Chris Wanstrath, P.J. Hyett and Scott Chacon
+
 var a = 67 // a contains 67
 console.log(a)
 a = "shiv"
 console.log(a)
+
 // let 8shiv = 7 // Not allowed this will throw an error
+
 // let var = 7
