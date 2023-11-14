@@ -3,6 +3,8 @@ let score = "shivsundar"
 //console.log(typeof score);
 //console.log(typeof(score));
 
+// TO convert any value into number we use 'Number(value)' 
+
 let valueInNumber = Number(score)
 //console.log(typeof valueInNumber);
 //console.log(valueInNumber);
@@ -18,8 +20,8 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 //  console.log(booleanIsLoggedIn);
 
 // 1 => true; 0 => false
-// "" => false
-// "hitesh" => true
+// "" => false // empty strings returns false
+// "shivsundar" => true
 
 let someNumber = 33
 
