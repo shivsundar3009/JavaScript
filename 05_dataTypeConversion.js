@@ -50,8 +50,15 @@ let str3 = str1 + str2
 
 // console.log("1" + 2);
 // console.log(1 + "2");
+
+// if we use string value in front it treats all values after it as a string
 // console.log("1" + 2 + 2);
+
+// if we use string in last it treats all before values as a number 
 // console.log(1 + 2 + "2");
+
+// this will print '357' all values from string will be treated as a string
+// console.log(1 + 2 + '5' + 7);
 
 // console.log( (3 + 4) * 5 % 3);
 
