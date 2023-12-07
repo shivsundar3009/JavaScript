@@ -1,3 +1,15 @@
+// A JavaScript function is a block of code designed to perform a particular task.
+
+// A JavaScript function is executed when "something" invokes it (calls it).
+
+// Why Functions?
+// With functions you can reuse code
+
+// You can write code that can be used many times.
+
+// You can use the same code with different arguments, to produce different results.
+
+    
 function sayMyName(){
     console.log("H");
     console.log("I");
@@ -8,6 +20,17 @@ function sayMyName(){
 }
 
 // sayMyName()
+
+
+//  toCelsius refers to the function object, and toCelsius() refers to the function result.
+
+function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+}
+
+let value = toCelsius;
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // function addTwoNumbers(number1, number2){
 
