@@ -1,3 +1,18 @@
+// Scope determines the accessibility (visibility) of variables.
+
+// JavaScript has 3 types of scope:
+
+// Block scope
+// Function scope
+// Global scope
+
+// Variables declared with the var keyword can NOT have block scope.
+
+// Variables declared inside a { } block can be accessed from outside the block.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
 //var c = 300
 let a = 300
 if (true) {
@@ -13,7 +28,16 @@ if (true) {
 // console.log(b);
 // console.log(c);
 
+// Before ES6 (2015), JavaScript had only Global Scope and Function Scope.
 
+// ES6 introduced two important new JavaScript keywords: let and const.
+
+// These two keywords provide Block Scope in JavaScript.
+
+// Variables declared inside a { } block cannot be accessed from outside the block:
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    
 function one(){
     const username = "hitesh"
 
