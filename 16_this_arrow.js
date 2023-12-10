@@ -46,6 +46,24 @@ const user = {
 //     console.log(this.username);
 // }
 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+    
+// Arrow functions were introduced in ES6.
+
+// Arrow functions allow us to write shorter function syntax:
+
+    // let myFunction = (a, b) => a * b;
+
+
+// It gets shorter! If the function has only one statement, and the statement returns a value, you can remove the brackets and the return keyword:   
+
+    // hello = () => "Hello World!";
+
+// In fact, if you have only one parameter, you can skip the parentheses as well
+
+    // hello = val => "Hello " + val;
+
 const chai =  () => {
     let username = "hitesh"
     console.log(this);
